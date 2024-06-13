@@ -7,9 +7,5 @@ setup(
     description='Simulates the use of cloud-based API models.',
     long_description='A Python library which simulates the use of cloud-based API models for educational purposes.',
     author='Boris Ruf',
-    url='https://github.com/borisruf/mockai',
-    install_requires=[
-        'pickle',
-        'warnings'
-    ]
+    url='https://github.com/borisruf/mockai'
 )
