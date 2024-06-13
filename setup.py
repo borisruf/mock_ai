@@ -1,6 +1,6 @@
 import setuptools
 
-setup(
+setuptools.setup(
     name='mockai',
     packages=find_packages(include=['mockai']),
     version='0.1.0',
