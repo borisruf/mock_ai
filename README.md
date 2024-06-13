@@ -43,4 +43,4 @@ Currently, the supported models include `gpt-35-turbo` and `gpt-4` and the follo
 - What is the Olympic Oath?
 - What are the Paralympic Games
 
-The file [create_cache.py](https://github.com/borisruf/mockai/blob/main/mockai/create_cache.py) allows for the modification or enhancement of the cached requests.
+Use [create_cache.py](https://github.com/borisruf/mockai/blob/main/mockai/create_cache.py) to modify or enhance the list of cached requests.
