@@ -9,7 +9,6 @@ setup(
     author='Boris Ruf',
     url='https://github.com/borisruf/mockai',
     install_requires=[
-        'difflib',
         'pickle',
         'warnings'
     ]
