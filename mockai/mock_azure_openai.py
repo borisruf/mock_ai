@@ -31,7 +31,7 @@ class MockAzureOpenAI:
 
                     else:
 
-                        warnings.warn(f"No cached data available for the AI model '{model}'. Currently supported models are: {cache.keys()}")
+                        warnings.warn(f"No cached data available for the AI model '{model}'. Currently supported models are: {str( ', '.join(list(cache.keys())))}")
                         return None
 
 
