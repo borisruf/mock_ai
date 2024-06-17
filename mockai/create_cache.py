@@ -5,6 +5,7 @@ import random
 import string
 import pickle
 
+# Real Azure/OpenAI credentials required here
 AZURE_ENDPOINT = os.getenv("OPENAI_API_BASE")
 OPENAI_MODEL_NAME = os.getenv("OPENAI_MODEL_NAME")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")

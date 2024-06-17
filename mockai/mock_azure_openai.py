@@ -30,7 +30,8 @@ class MockAzureOpenAI:
                         return responses[random.randint(0, len(responses)-1)]
 
                     else:
-                        warnings.warn(f"No cached data available for the AI model '{model}'")
+
+                        warnings.warn(f"No cached data available for the AI model '{model}'. Currently supported models are: {cache.keys()}")
                         return None
 
 
