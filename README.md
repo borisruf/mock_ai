@@ -14,12 +14,11 @@ pip install git+https://github.com/borisruf/mockai.git
 Once the package is installed, you can include and use it in your Python code as follows:
 
 ```python
-import os
 from mockai import MockAzureOpenAI
 
-AZURE_ENDPOINT = os.getenv("AZURE_ENDPOINT")
-OPENAI_MODEL = os.getenv("OPENAI_MODEL")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+AZURE_ENDPOINT = "[YOUR_AZURE_ENDPOINT]"
+OPENAI_MODEL = "[YOUR_OPENAI_MODEL]"
+OPENAI_API_KEY = "[YOUR_OPENAI_API_KEY]"
 
 client = MockAzureOpenAI(azure_endpoint=AZURE_ENDPOINT, api_key=OPENAI_API_KEY)
 
