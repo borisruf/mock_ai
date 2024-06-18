@@ -1,1 +1,1 @@
-from .mock_azure_openai import MockAzureOpenAI
+from . import MockAzureOpenAI
