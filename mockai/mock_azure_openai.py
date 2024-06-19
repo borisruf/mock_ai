@@ -10,7 +10,9 @@ class MockAzureOpenAI:
         class completions:
             def create(model, messages, temperature=1, max_tokens=16, top_p=1, frequency_penalty=0, presence_penalty=0, stop=None):
 
-                    with open('cache.pickle', 'rb') as f:
+                    path = os.path.join(os.path.dirname(__file__), 'cache.pickle')
+
+                    with open(path, 'rb') as f:
                         cache = pickle.load(f)
 
                     if model in cache.keys():
