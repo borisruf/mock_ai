@@ -6,7 +6,7 @@ A Python library which simulates the use of cloud-based API models for education
 To install the package, you can use `pip`, the Python package manager. Open a command line or terminal and run the following command:
 
 ```bash
-pip install git+https://github.com/borisruf/mockai.git
+pip install git+https://github.com/borisruf/mock_ai.git
 ```
 
 ## Usage
