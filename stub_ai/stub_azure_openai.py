@@ -5,7 +5,7 @@ import pickle
 import warnings
 import os
 
-class MockAzureOpenAI:
+class StubAzureOpenAI:
     class chat:
         class completions:
             def create(model, messages, temperature=1, max_tokens=16, top_p=1, frequency_penalty=0, presence_penalty=0, stop=None):
