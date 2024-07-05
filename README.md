@@ -16,7 +16,7 @@ Once the package is installed, you can include and use it in your Python code.
 __Sample code:__
 
 ```python
-from mockai import MockAzureOpenAI
+from mock_ai import MockAzureOpenAI
 
 AZURE_ENDPOINT = "[YOUR_AZURE_ENDPOINT]"
 OPENAI_MODEL = "gpt-35-turbo"   # specify a supported model from the list
