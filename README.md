@@ -6,7 +6,7 @@ A Python library which simulates the use of cloud-based AI models for educationa
 To install the package, you can use `pip`, the Python package manager. Open a command line or terminal and run the following command:
 
 ```bash
-pip install git+https://github.com/borisruf/stub_ai.git
+pip install stub_ai
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ Once the package is installed, you can include and use it in your Python code.
 __Sample code:__
 
 ```python
-from mock_ai import StubAzureOpenAI
+from stub_ai import StubAzureOpenAI
 
 AZURE_ENDPOINT = "[YOUR_AZURE_ENDPOINT]"
 OPENAI_MODEL = "gpt-35-turbo"   # specify a supported model from the list
