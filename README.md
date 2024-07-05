@@ -1,12 +1,12 @@
-# Mock AI
-A Python library which simulates the use of cloud-based API models for educational purposes.
+# Stub AI
+A Python library which simulates the use of cloud-based AI models for educational purposes.
 
 ## Installation
 
 To install the package, you can use `pip`, the Python package manager. Open a command line or terminal and run the following command:
 
 ```bash
-pip install git+https://github.com/borisruf/mock_ai.git
+pip install git+https://github.com/borisruf/stub_ai.git
 ```
 
 ## Usage
@@ -16,13 +16,13 @@ Once the package is installed, you can include and use it in your Python code.
 __Sample code:__
 
 ```python
-from mock_ai import MockAzureOpenAI
+from mock_ai import StubAzureOpenAI
 
 AZURE_ENDPOINT = "[YOUR_AZURE_ENDPOINT]"
 OPENAI_MODEL = "gpt-35-turbo"   # specify a supported model from the list
 OPENAI_API_KEY = "[YOUR_OPENAI_API_KEY]"
 
-client = MockAzureOpenAI(azure_endpoint=AZURE_ENDPOINT, api_key=OPENAI_API_KEY)
+client = StubAzureOpenAI(azure_endpoint=AZURE_ENDPOINT, api_key=OPENAI_API_KEY)
 
 response = client.chat.completions.create(model=OPENAI_MODEL, messages=[{"role": "system", "content": "What is the origin of the Olympic Games?"}])
 
@@ -49,4 +49,4 @@ Currently, the supported models include `gpt-35-turbo` and `gpt-4` and the follo
 - What is the Olympic Oath?
 - What are the Paralympic Games
 
-Use [create_cache.py](https://github.com/borisruf/mock_ai/blob/main/mock_ai/create_cache.py) to modify or enhance the list of cached requests.
+Use [create_cache.py](https://github.com/borisruf/stub_ai/blob/main/stub_ai/create_cache.py) to modify or enhance the list of cached requests.
